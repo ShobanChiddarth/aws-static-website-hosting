@@ -8,9 +8,9 @@ locals {
 }
 
 resource "aws_instance" "webserver" {
-    ami = data.aws_ami.ubuntu
+    ami = data.aws_ami.ubuntu.id
     instance_type = "t3.micro"
-    subnet_id = aws_subnet.my-public-subnet
+    subnet_id = aws_subnet.my-public-subnet.id
     associate_public_ip_address = true
     user_data = local.webserver_init
 
