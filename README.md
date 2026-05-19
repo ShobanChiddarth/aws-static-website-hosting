@@ -2,14 +2,6 @@
 
 AWS Infrastructure in Terraform to host basic static website
 
-## Internship Details
-
-- Intern ID: `CITS752`
-- Name: Shoban Chiddarth
-- No. of weeks: 4
-- Project Name: AWS Static Website Hosting
-- Project Scope: Cloud Computing
-
 ## Architecture
 
 This project deploys a single nginx web server on AWS in the **ap-south-1 (Mumbai)** region.
@@ -59,3 +51,12 @@ See inside `aws-infrastructure/`
 To destroy
 
 1. `terraform destroy`
+
+
+## Internship Details
+
+- Intern ID: `CITS752`
+- Name: Shoban Chiddarth
+- No. of weeks: 4
+- Project Name: AWS Static Website Hosting
+- Project Scope: Cloud Computing
